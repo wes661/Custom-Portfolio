@@ -11,8 +11,8 @@ body{
 }
 
 .jtron{
-	background-color: black;
-	opacity: .5;
+	position: relative;
+	background: rgba(0,0,0,.7);
 	margin: 0;
 	padding-top: 0;
 	padding-left: 15px;
@@ -21,25 +21,33 @@ body{
 }
 
 .fenrir-one{
+	opacity: .5;
 	width: 14%;
 	height: 200px;
 }
 
-.rpgTitle{
+
+
+.rpgTitle, .triviaTitle{
 	color: #ee9740;
 	text-align: center;
 	font-size: 40px;
 }
-.rpgCard{
+.projectCard{
 	border-radius: 50px;
-	background-color: black;
+	background: rgba(0,0,0,.5);;
 	color: #ee9740;
 	text-align: center;
 	font-size: 20px;
 }
 
-.rpgImg{
+.rpgInfo, .triviaInfo{
+	display: none;
+}
+
+.rpgImg, .triviaImg{
 	border-radius: 50px;
+	cursor: pointer;
 	
 }
 
