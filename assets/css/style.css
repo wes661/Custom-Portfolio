@@ -1,18 +1,18 @@
 body{
 	background-image: url("../images/sitebackground.jpg");
-	color: black;
+	
 }
 
 .headingTitle{
 	padding-top: 20px;
 	font-size: 80px;
-	color: #ee9740;
+	color: white;
 	font-weight: bold;
 }
 
 .jtron{
 	position: relative;
-	background: rgba(0,0,0,.7);
+	background: rgba(31,136,113,0.4);
 	margin: 0;
 	padding-top: 0;
 	padding-left: 15px;
@@ -20,40 +20,32 @@ body{
 	padding-bottom: 15px;
 }
 
-.fenrir-one{
-	opacity: .5;
-	width: 14%;
-	height: 200px;
-}
-
-
-
-.rpgTitle, .triviaTitle{
-	color: #ee9740;
+.rpgTitle, .triviaTitle, .hangmanTitle, .gifTitle{
+	color: #1f8871;
 	text-align: center;
 	font-size: 40px;
 }
 .projectCard{
 	border-radius: 50px;
-	background: rgba(0,0,0,.5);;
-	color: #ee9740;
+	background: rgba(31,136,113,0.4);
+	color: white;
 	text-align: center;
 	font-size: 20px;
 }
 
-.rpgInfo, .triviaInfo{
+.rpgInfo, .triviaInfo, .hangmanInfo, .gifInfo{
 	display: none;
 }
 
-.rpgImg, .triviaImg{
+.rpgImg, .triviaImg, .hangmanImg, .gifImg{
 	border-radius: 50px;
 	cursor: pointer;
 	
 }
 
 .btn-play{
-	background-color:#ee9740;
-	color: black;
+	background-color:#1f8871;
+	color: white;
 	font-weight: bold;
 	font-size: 20px;
 	border-radius: 100%;

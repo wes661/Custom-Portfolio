@@ -4,4 +4,10 @@ $('.rpgImg').click(function(){
 $('.triviaImg').click(function(){
 	$('.triviaInfo').slideToggle(500);
 })
+$('.hangmanImg').click(function(){
+	$('.hangmanInfo').slideToggle(500);
+})
+$('.gifImg').click(function(){
+	$('.gifInfo').slideToggle(500);
+})
 	
