@@ -10,4 +10,7 @@ $('.hangmanImg').click(function(){
 $('.gifImg').click(function(){
 	$('.gifInfo').slideToggle(500);
 })
+$('.rpsImg').click(function(){
+	$('.rpsInfo').slideToggle(500);
+})
 	

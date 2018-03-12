@@ -20,7 +20,7 @@ body{
 	padding-bottom: 15px;
 }
 
-.rpgTitle, .triviaTitle, .hangmanTitle, .gifTitle{
+.rpgTitle, .triviaTitle, .hangmanTitle, .gifTitle, .rpsTitle{
 	color: #1f8871;
 	text-align: center;
 	font-size: 40px;
@@ -33,11 +33,11 @@ body{
 	font-size: 20px;
 }
 
-.rpgInfo, .triviaInfo, .hangmanInfo, .gifInfo{
+.rpgInfo, .triviaInfo, .hangmanInfo, .gifInfo, .rpsInfo{
 	display: none;
 }
 
-.rpgImg, .triviaImg, .hangmanImg, .gifImg{
+.rpgImg, .triviaImg, .hangmanImg, .gifImg, .rpsImg{
 	border-radius: 50px;
 	cursor: pointer;
 	
