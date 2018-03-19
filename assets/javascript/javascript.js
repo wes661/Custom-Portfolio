@@ -14,3 +14,12 @@ $('.rpsImg').click(function(){
 	$('.rpsInfo').slideToggle(500);
 })
 	
+$('#worksArrow').click(function(){
+	$('#projects').slideToggle(500);
+})
+$('#contactArrow').click(function(){
+	$('#contactMe').slideToggle(500);
+})
+$('#aboutArrow').click(function(){
+	$('#aboutMe').slideToggle(500);
+})

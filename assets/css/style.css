@@ -5,6 +5,7 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	color: white;
+	font-family: 'Courgette', cursive;
 	
 }
 
@@ -91,10 +92,18 @@ body{
 	height: 250px;
 	width: 250px;
 }
-#connect{
+#contactArrow, #aboutArrow, #worksArrow{
 	font-size: 300%;
 }
-#connect:hover{
+#contactArrow:hover{
+	font-size: 400%;
+	cursor: pointer;
+}
+#worksArrow:hover{
+	font-size: 400%;
+	cursor: pointer;
+}
+#aboutArrow:hover{
 	font-size: 400%;
 	cursor: pointer;
 }
@@ -102,11 +111,25 @@ body{
 	margin: 0;
 	font-size: 2em;
 	padding: 0;
+	font-family: 'Courgette', cursive;
 }
 #githublink, #linkedinlink, #stackoverflowlink{
 	
 	border-radius: 100%;
 }
+#aboutArrow{
+	margin-left: 15%;
+}
+#contactArrow{
+	margin-right: 15%;
+}
+#projects, #contactMe, #aboutMe{
+	height: 300px;
+	width: 100%;
+	border: 3px solid white;
+	display: none;
+}
+
 
 
   
