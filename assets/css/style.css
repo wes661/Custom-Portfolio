@@ -1,4 +1,14 @@
 body{
+	background-image: url("../images/backgroundimg.jpg");
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+	
+}
+
+.portfolio{
 	background-image: url("../images/sitebackground.jpg");
 	
 }
@@ -50,3 +60,49 @@ body{
 	font-size: 20px;
 	border-radius: 100%;
 }
+#mantra{
+	font-family: 'Courgette', cursive;
+	font-size: 4em;
+	color: white;
+	height: auto;
+	width: 80%;
+	text-align: center;
+	-webkit-text-stroke: 1px black;
+}
+#name{
+	font-family: 'Courgette', cursive;
+	font-size: 4em;
+	color: white;
+	height: auto;
+	width: 35%;
+	text-align: center;
+	margin-left: 15%;
+	-webkit-text-stroke: 1.5px black;
+	
+}
+#title{
+	font-size: .5em;
+	font-weight: 200;
+}
+#bio-image{
+	border-radius: 100%;
+	-webkit-filter: grayscale(100%);
+	text-align: center;
+	height: 250px;
+	width: 250px;
+}
+#connect{
+	font-size: 300%;
+}
+#connect:hover{
+	font-size: 400%;
+	cursor: pointer;
+}
+.work{
+	margin: 0;
+	font-size: 2em;
+	padding: 0;
+}
+
+
+  
