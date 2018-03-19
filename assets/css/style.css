@@ -103,6 +103,10 @@ body{
 	font-size: 2em;
 	padding: 0;
 }
+#githublink, #linkedinlink, #stackoverflowlink{
+	
+	border-radius: 100%;
+}
 
 
   
