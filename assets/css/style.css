@@ -132,7 +132,7 @@ body{
 	height: 40%;
 	width: 90%;
 }
-#aboutArrow{
+#aboutArrow, #aboutArrowUp{
 	margin-left: 15%;
 }
 #contactArrow{
