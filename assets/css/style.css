@@ -68,7 +68,7 @@ body{
 	height: auto;
 	width: 80%;
 	text-align: center;
-	-webkit-text-stroke: 1px black;
+	text-shadow: 0 20px 20px rgb(155, 39, 39);
 }
 #name{
 	font-family: 'Courgette', cursive;
