@@ -18,6 +18,23 @@ $('#aboutArrowUp').click(function(){
 	}, 1000);
 })
 
+$('#aboutArrow').click(function(){
+	$('#aboutArrowUp').show('fast');
+	$('#aboutMe').css('visibility', 'visible');
+	$('#aboutMe').addClass('animated fadeInLeftBig');
+	$('#aboutMe').removeClass('fadeOutLeftBig');
+	$('#aboutArrow').hide('fast');
+})
+$('#aboutArrowUp').click(function(){
+	$('#aboutArrow').show('fast');
+	$('#aboutArrowUp').hide('fast');
+	$('#aboutMe').addClass('animated fadeOutLeftBig');
+	$('#aboutMe').removeClass('fadeInLeftBig');
+	setTimeout(function(){
+		$('#aboutMe').css('visibility', 'hidden');
+	}, 1000);
+})
+
 
 	
 $('#worksArrow').click(function(){
