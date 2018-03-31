@@ -10,7 +10,7 @@ body{
 }
 
 .portfolio{
-	background-image: url("../images/sitebackground.jpg");
+	background-image: url("../images/backgroundimg.jpg");
 	
 }
 
@@ -31,7 +31,12 @@ body{
 	padding-bottom: 15px;
 }
 
-.rpgTitle, .triviaTitle, .hangmanTitle, .gifTitle, .rpsTitle{
+.row1a{
+	border: 2px solid white;
+	height: 350px;
+}
+
+.appTitle{
 	color: #1f8871;
 	text-align: center;
 	font-size: 40px;
@@ -44,14 +49,12 @@ body{
 	font-size: 20px;
 }
 
-.rpgInfo, .triviaInfo, .hangmanInfo, .gifInfo, .rpsInfo{
+.card-body{
 	font-size: 1.8em;
 }
 
-.rpgImg, .triviaImg, .hangmanImg, .gifImg, .rpsImg{
+.card-img-top{
 	border-radius: 50px;
-	cursor: pointer;
-	
 }
 
 .btn-play{
@@ -154,6 +157,8 @@ body{
 	border-radius: 30%;
 	margin-top: 5%;
 }
+
+
 
 
 
