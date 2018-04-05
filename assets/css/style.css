@@ -31,10 +31,7 @@ body{
 	padding-bottom: 15px;
 }
 
-.row1a{
-	border: 2px solid white;
-	height: 350px;
-}
+
 
 .appTitle{
 	color: #1f8871;
@@ -64,99 +61,67 @@ body{
 	font-size: 20px;
 	border-radius: 100%;
 }
-#mantra{
-	font-family: 'Courgette', cursive;
-	font-size: 4em;
-	color: white;
-	height: auto;
-	width: 80%;
-	text-align: center;
-	text-shadow: 0 20px 20px rgb(155, 39, 39);
-}
-#name{
-	font-family: 'Courgette', cursive;
-	font-size: 4em;
-	color: white;
-	height: auto;
-	width: 35%;
-	text-align: center;
-	margin-left: 15%;
-	-webkit-text-stroke: 1.5px black;
-	
-}
+
 #title{
 	font-size: .5em;
 	font-weight: 200;
 }
-#bio-image{
-	border-radius: 100%;
-	-webkit-filter: grayscale(100%);
-	text-align: center;
-	height: 250px;
-	width: 250px;
-}
-#contactArrow, #aboutArrow, #worksArrow{
-	font-size: 300%;
-}
-#worksArrowUp, #aboutArrowUp{
-	font-size: 300%;
-	display: none;
-}
 
-#contactArrow:hover{
-	color: rgb(212, 54, 54);
-	cursor: pointer;
-}
-#worksArrow:hover{
-	color: rgb(212, 54, 54);
-	cursor: pointer;
-}
-#worksArrowUp:hover{
-	color: rgb(212, 54, 54);
-	cursor: pointer;
-}
-#aboutArrow:hover{
-	color: rgb(212, 54, 54);
-	cursor: pointer;
-}
-#aboutArrowUp:hover{
-	color: rgb(212, 54, 54);
-	cursor: pointer;
-}
-.work{
-	margin: 0;
-	font-size: 2em;
-	padding: 0;
-	font-family: 'Courgette', cursive;
-}
-#githublink, #linkedinlink, #stackoverflowlink{
-	
-	border-radius: 100%;
-	height: 40%;
-	width: 90%;
-}
-#aboutArrow, #aboutArrowUp{
-	margin-left: 15%;
-}
-#contactArrow{
-	margin-right: 15%;
-}
-#projects, #contactMe, #aboutMe{
-	/* background-color: rgba(3, 3, 3, 0.5); */
-	color: white;
-	height: 300px;
-	width: 100%;
-	overflow-y: scroll;
-	visibility: hidden;
-}
-#aboutMe{
-	padding-left: 15px;
-}
 .projectPic{
 	width: 95%;
 	border-radius: 30%;
 	margin-top: 5%;
 }
+
+
+.col2, .col3{
+	margin-top: 70px;
+	background: rgba(75, 76, 77, 0.4);
+	border-radius: 5%;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+}
+.bioImage{
+	width: 50%;
+	border-radius: 100%;
+	-webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+.name{
+	font-family: 'Courgette', cursive;
+}
+.aboutMe{
+	text-align: center;
+	font-family: 'Courgette', cursive;
+}
+.aboutMeText{
+	font-size: 1.2em;
+}
+.githubImg, .linkedinImg, .stackImg{
+	width: 12%;
+	border-radius: 10%;
+}
+
+.githubImg{
+	margin-right: 7%;
+}
+.stackImg{
+	margin-left: 7%;
+}
+.form1, .form2{
+	width: 65%;
+}
+.form3{
+		width: 100%;
+		height: 100px;
+		padding: 10px;
+		box-sizing: border-box;
+		border-radius: 10px;
+		font-size: 12px;
+		margin-top: 10px;
+}
+
 
 
 
