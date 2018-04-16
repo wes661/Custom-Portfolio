@@ -55,11 +55,15 @@ body{
 }
 
 .btn-play{
-	background-color:#1f8871;
+	background-color:#127bb7;
 	color: white;
 	font-weight: bold;
 	font-size: 20px;
-	border-radius: 100%;
+	border-radius: 30%;
+	margin-top: 3%;
+}
+.btn-play:hover{
+	background-color: rgb(238, 101, 101);
 }
 
 #title{
@@ -67,14 +71,23 @@ body{
 	font-weight: 200;
 }
 
+.projectTitle{
+	font-family: 'Courgette', cursive;
+	font-size: 2em;
+}
 .projectPic{
-	width: 95%;
+	width: 100%;
 	border-radius: 30%;
 	margin-top: 5%;
+	float: left;
+}
+.projectText{
+	font-size: 1.3em;
+	
 }
 
 
-.col2, .col3{
+.colStyle{
 	margin-top: 70px;
 	background: rgba(132, 135, 138, 0.4);
 	border-radius: 5%;
@@ -82,11 +95,32 @@ body{
 	padding-right: 15px;
 	padding-bottom: 20px;
 }
+
+.colProject{
+	margin-top: 25px;
+	background: rgba(132, 135, 138, 0.4);
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+}
 .bioImage{
 	width: 50%;
-	border-radius: 100%;
+	border-radius: 30%;
 	-webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
+}
+.mail{
+	text-decoration: none;
+	color:#127bb7;
+	font-size: 38px !important;
+}
+.mail:hover{
+	color: rgb(238, 101, 101);
+}
+.email{
+	font-size: 1.5em;
+	display: inline-block; 
+	font-family: 'Courgette', cursive;
 }
 .name{
 	font-family: 'Courgette', cursive;

@@ -1,5 +1,16 @@
 
-
+$(".mail").hover(function(){
+	$(this).addClass('animated infinite pulse');
+},
+function(){
+	$(this).removeClass('animated infinite pulse')
+})
+$(".btn-play").hover(function(){
+	$(this).addClass('animated infinite pulse');
+},
+function(){
+	$(this).removeClass('animated infinite pulse')
+})
 
 $('#aboutArrow').click(function(){
 	$('#aboutArrowUp').show('fast');
@@ -54,8 +65,3 @@ $('#worksArrowUp').click(function(){
 	}, 1000);
 })
 
-$('.projectPic').hover(function(){
-	$(this).addClass('animated infinite pulse');
-}, function(){
-	$(this).removeClass('animated infinite pulse')
-})
