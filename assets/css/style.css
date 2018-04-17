@@ -9,10 +9,16 @@ body{
 	
 }
 
+.container-fluid{
+	padding: 0 !important;
+}
+
 .portfolio{
 	background-image: url("../images/backgroundimg.jpg");
 	
 }
+
+
 
 .headingTitle{
 	padding-top: 20px;
@@ -40,7 +46,7 @@ body{
 }
 .projectCard{
 	border-radius: 50px;
-	background: rgba(31,136,113,0.4);
+	background: rgba(31,136,113,0.2);
 	color: white;
 	text-align: center;
 	font-size: 20px;
@@ -71,40 +77,54 @@ body{
 	font-weight: 200;
 }
 
+hr {
+	
+	margin: 0 !important;
+    border: 0;
+    border-top: 1px solid rgba(249, 245, 245);
+}
+
+
 .projectTitle{
 	font-family: 'Courgette', cursive;
 	font-size: 2em;
 }
 .projectPic{
-	width: 100%;
+	width: 50%;
 	border-radius: 30%;
-	margin-top: 5%;
-	float: left;
+	margin-top: 3%;
+}
+.projectPic:hover{
+	cursor: pointer;
 }
 .projectText{
-	font-size: 1.3em;
-	
+	font-size: 1.2;
+	width: 50%;
+	text-align: left;
 }
 
 
-.colStyle{
+.colAbout{
 	margin-top: 70px;
-	background: rgba(132, 135, 138, 0.4);
+}
+.colTools{
+	margin-top: 50px;
+}
+.colTools, .colAbout{
 	border-radius: 5%;
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-bottom: 20px;
+	width: 85%;
 }
 
 .colProject{
-	margin-top: 25px;
-	background: rgba(132, 135, 138, 0.4);
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-bottom: 20px;
+	
+	background: rgba(132, 135, 138, 0.15);
+	padding-top: 50px;
 }
 .bioImage{
-	width: 50%;
+	width: 35%;
 	border-radius: 30%;
 	-webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
@@ -133,7 +153,7 @@ body{
 	font-size: 1.2em;
 }
 .githubImg, .linkedinImg, .stackImg{
-	width: 12%;
+	width: 8%;
 	border-radius: 10%;
 }
 
@@ -143,17 +163,10 @@ body{
 .stackImg{
 	margin-left: 7%;
 }
-.form1, .form2{
-	width: 65%;
-}
-.form3{
-		width: 100%;
-		height: 100px;
-		padding: 10px;
-		box-sizing: border-box;
-		border-radius: 10px;
-		font-size: 12px;
-		margin-top: 10px;
+.toolBeltImg{
+	margin-left: 3%;
+	margin-right: 3%;
+	width: 9%;
 }
 
 

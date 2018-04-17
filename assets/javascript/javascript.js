@@ -5,7 +5,7 @@ $(".mail").hover(function(){
 function(){
 	$(this).removeClass('animated infinite pulse')
 })
-$(".btn-play").hover(function(){
+$(".projectPic").hover(function(){
 	$(this).addClass('animated infinite pulse');
 },
 function(){
