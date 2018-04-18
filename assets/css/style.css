@@ -4,15 +4,17 @@ body{
 	margin: 0;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: center;
+	
+	background-size:cover;
+  	background-position:center center;
+ 
+  	width:100%;
 	color: white;
 	/* font-family: 'Courgette', cursive; */
 	
 }
 
-.container-fluid{
-	padding: 0 !important;
-}
+
 
 .portfolio{
 	background-image: url("../images/backgroundimg.jpg");
