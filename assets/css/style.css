@@ -16,11 +16,38 @@ body::before {
 	background: url("../images/backgroundimg.jpg") no-repeat center center;
   }
 
+.nav{
+	border-radius: 50px;
+	position: absolute;
+	z-index: 2;
+	visibility: hidden;
+	background-color: rgb(108, 113, 117, .8);
+}  
+#portfolio-btn{
+	margin-left: 40px;
+	font-family: 'Concert One', cursive;
+	font-size: 1.5em;
+}
+#portfolio-back-btn{
+	margin-left: 40px;
+	visibility: hidden;
+	font-family: 'Concert One', cursive;
+	font-size: 1.5em;
+}
 
-
-.portfolio{
-	background-image: url("../images/backgroundimg.jpg");
-	
+ul{
+	list-style: none;
+}
+.pLinks{
+	font-size: 1.3em;
+	text-decoration: none;
+	color: white;
+	font-family: 'Concert One', cursive;
+}
+.pLinks:hover{
+	font-size: 1.5em;
+	text-decoration: none;
+	color: rgb(84, 173, 245);
 }
 
 
@@ -82,16 +109,11 @@ body::before {
 	font-weight: 200;
 }
 
-hr {
-	
-	margin: 0 !important;
-    border: 0;
-    border-top: 1px solid rgba(249, 245, 245);
-}
+
 
 
 .projectTitle{
-	font-family: 'Courgette', cursive;
+	font-family: 'Concert One', cursive;
 	font-size: 2em;
 }
 .projectPic{
@@ -101,6 +123,7 @@ hr {
 }
 .projectPic:hover{
 	cursor: pointer;
+	opacity: .8;
 }
 .projectText{
 	font-size: 1.2;
@@ -124,23 +147,22 @@ hr {
 }
 
 .colProject{
-	
-	background: rgba(132, 135, 138, 0.15);
-	padding-top: 50px;
+	padding-top: 40px;
 }
 .bioImage{
 	width: 35%;
-	border-radius: 30%;
+	border-radius: 100%;
 	-webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
 }
+
 .mail{
 	text-decoration: none;
-	color:#127bb7;
+	color:white;
 	font-size: 38px !important;
 }
 .mail:hover{
-	color: rgb(238, 101, 101);
+	color: rgb(84, 173, 245);
 }
 .email{
 	font-size: 1.5em;
@@ -154,12 +176,16 @@ hr {
 	text-align: center;
 	font-family: 'Courgette', cursive;
 }
+.tools{
+	text-align: center;
+	font-family: 'Concert One', cursive;
+}
 .aboutMeText{
 	font-size: 1.2em;
 }
 .githubImg, .linkedinImg, .stackImg{
 	width: 8%;
-	border-radius: 10%;
+	border-radius: 100%;
 }
 
 .githubImg{

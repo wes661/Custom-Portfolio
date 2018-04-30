@@ -10,6 +10,7 @@
 	href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
 	<link rel="icon" href="Assets/images/favicon.png">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<title>Me</title>
@@ -17,7 +18,24 @@
 <body>
 	<div class="container-fluid">
 		<div class="row row1">
-			<div class="col-md-6">
+			<div class="col-md-6" id="home">
+					<button type="button" class="btn btn-outline-light"  id="portfolio-btn">My Work</button>
+					<button type="button" class="btn btn-outline-light" id="portfolio-back-btn">Hide</button>
+				<div class="nav">
+					<ul>
+						<a class="pLinks" href="#planeswalker"><li>Planeswalker RPG</li></a>
+						<a class="pLinks" href="#nfl"><li>NFL Trivia</li></a>
+						<a class="pLinks" href="#nintendo"><li>Nintendo Hangman</li></a>
+						<a class="pLinks" href="#giphy"><li>Giphy API</li></a>
+						<a class="pLinks" href="#firebase"><li>Firebase RPS</li></a>
+						<a class="pLinks" href="#quick"><li>Quick Bytes</li></a>
+						<a class="pLinks" href="#liri"><li>LIRI Bot</li></a>
+						<a class="pLinks" href="#constructor"><li>NodeJs Constructor Hangman</li></a>
+						<a class="pLinks" href="#bamazon"><li>MySql/NodeJs Bamazon App</li></a>
+						<a class="pLinks" href="#friendFinder"><li>Friend Finder</li></a>
+						<a class="pLinks" href="#burger"><li>Eat Da Burger</li></a>
+					</ul>
+				</div>
 				<center><h1 class="name">Wesley Hanson</h2></center>
 				<br>
 				<center><img src="assets/images/20161225_111259.jpg" class="img-fluid bioImage" alt="Responsive image"></center>
@@ -65,14 +83,13 @@
 		</div>
 			<br>
 			<br>
-			<hr>
 			<br>
-			<h1 class="aboutMe">Portfolio</h2>
+			<h1 class="aboutMe">My Work</h2>
 			<br>	
-			<hr>
 		<div class="row">
 			<div class="col-md-2 colProject"></div>
-			<div class="col-md-8 colProject">
+			<a name="planeswalker">
+			<div class="col-md-8 colProject" id="planeswalker">
 				<center><span class="projectTitle">Planeswalkers RPG</span></center>
 				<br>
 				<center>
@@ -87,23 +104,28 @@
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="col-md-8">
-							<center><h2 class="aboutMe">Tools Used</h2></center>
+							<center><h2 class="tools">Tools Used</h2></center>
 						<center>
 							<img src="assets/images/html5.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/css3.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/javascript.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/jquery.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/bootstrap.png" class="img-fluid toolBeltImg" alt="Responsive image">
+							<br>
+							<br>
+							<a href="#home"><button type="button" class="btn btn-outline-light">Home</button></a>
 						</center>
 					</div>
 					<div class="col-md-2"></div>	
 				</div>	
 			</div>
+			</a>
 			<div class="col-md-2 colProject"></div>
 		</div>
 		<div class="row">
 			<div class="col-md-2 colProject"></div>
-			<div class="col-md-8 colProject">
+			<a name="nfl">
+			<div class="col-md-8 colProject" id="nfl">
 				<center><span class="projectTitle">NFL Trivia</span></center>
 				<br>
 				<center>
@@ -118,23 +140,27 @@
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="col-md-8">
-							<center><h2 class="aboutMe">Tools Used</h2></center>
+							<center><h2 class="tools">Tools Used</h2></center>
 						<center>
 							<img src="assets/images/html5.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/css3.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/javascript.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/jquery.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/bootstrap.png" class="img-fluid toolBeltImg" alt="Responsive image">
+							<br>
+							<br>
+							<a href="#home"><button type="button" class="btn btn-outline-light">Home</button></a>
 							</center>
 					</div>
 					<div class="col-md-2"></div>	
 				</div>	
 			</div>
+			</a>
 			<div class="col-md-2 colProject"></div>
 		</div>
 		<div class="row">
 			<div class="col-md-2 colProject"></div>
-			<div class="col-md-8 colProject">
+			<div class="col-md-8 colProject" id="nintendo">
 				<center><span class="projectTitle">Nintendo Hangman</span></center>
 				<br>
 				<center>
@@ -149,11 +175,14 @@
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="col-md-8">
-							<center><h2 class="aboutMe">Tools Used</h2></center>
+							<center><h2 class="tools">Tools Used</h2></center>
 						<center>
 							<img src="assets/images/html5.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/css3.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/javascript.png" class="img-fluid toolBeltImg" alt="Responsive image">
+							<br>
+							<br>
+							<a href="#home"><button type="button" class="btn btn-outline-light">Home</button></a>
 						</center>
 					</div>
 					<div class="col-md-2"></div>	
@@ -163,7 +192,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-2 colProject"></div>
-			<div class="col-md-8 colProject">
+			<div class="col-md-8 colProject" id="giphy">
 				<center><span class="projectTitle">Giphy API</span></center>
 					<br>
 					<center>
@@ -178,7 +207,7 @@
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="col-md-8">
-							<center><h2 class="aboutMe">Tools Used</h2></center>
+							<center><h2 class="tools">Tools Used</h2></center>
 						<center>
 							<img src="assets/images/html5.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/css3.png" class="img-fluid toolBeltImg" alt="Responsive image">
@@ -186,6 +215,9 @@
 							<img src="assets/images/jquery.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/bootstrap.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/api.png" class="img-fluid toolBeltImg" alt="Responsive image">
+							<br>
+							<br>
+							<a href="#home"><button type="button" class="btn btn-outline-light">Home</button></a>
 						</center>
 					</div>
 					<div class="col-md-2"></div>	
@@ -195,7 +227,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-2 colProject"></div>
-			<div class="col-md-8 colProject">
+			<div class="col-md-8 colProject" id="firebase">
 				<center><span class="projectTitle">Firebase RPS</span></center>
 				<br>
 				<center>
@@ -210,7 +242,7 @@
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="col-md-8">
-							<center><h2 class="aboutMe">Tools Used</h2></center>
+							<center><h2 class="tools">Tools Used</h2></center>
 						<center>
 							<img src="assets/images/html5.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/css3.png" class="img-fluid toolBeltImg" alt="Responsive image">
@@ -218,6 +250,9 @@
 							<img src="assets/images/jquery.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/bootstrap.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/firebase.png" class="img-fluid toolBeltImg" alt="Responsive image">
+							<br>
+							<br>
+							<a href="#home"><button type="button" class="btn btn-outline-light">Home</button></a>
 						</center>
 					</div>
 					<div class="col-md-2"></div>	
@@ -227,7 +262,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-2 colProject"></div>
-			<div class="col-md-8 colProject">
+			<div class="col-md-8 colProject" id="quick">
 				<center><span class="projectTitle">Quick Bytes</span></center>
 				<br>
 				<center>
@@ -242,7 +277,7 @@
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="col-md-8">
-							<center><h2 class="aboutMe">Tools Used</h2></center>
+							<center><h2 class="tools">Tools Used</h2></center>
 						<center>
 							<img src="assets/images/html5.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/css3.png" class="img-fluid toolBeltImg" alt="Responsive image">
@@ -251,6 +286,9 @@
 							<img src="assets/images/bootstrap.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/api.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/firebase.png" class="img-fluid toolBeltImg" alt="Responsive image">
+							<br>
+							<br>
+							<a href="#home"><button type="button" class="btn btn-outline-light">Home</button></a>
 						</center>
 					</div>
 					<div class="col-md-2"></div>	
@@ -260,7 +298,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-2 colProject"></div>
-			<div class="col-md-8 colProject">
+			<div class="col-md-8 colProject" id="liri">
 				<center><span class="projectTitle">LIRI Bot</span></center>
 				<br>
 				<center>
@@ -275,13 +313,16 @@
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="col-md-8">
-						<center><h2 class="aboutMe">Tools Used</h2></center>
+						<center><h2 class="tools">Tools Used</h2></center>
 						<center>
 							<img src="assets/images/javascript.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/jquery.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/nodejs.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/npm.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/api.png" class="img-fluid toolBeltImg" alt="Responsive image">
+							<br>
+							<br>
+							<a href="#home"><button type="button" class="btn btn-outline-light">Home</button></a>
 						</center>
 					</div>
 					<div class="col-md-2"></div>	
@@ -291,7 +332,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-2 colProject"></div>
-			<div class="col-md-8 colProject">
+			<div class="col-md-8 colProject" id="consructor">
 				<center><span class="projectTitle">NodeJs Constructor Hangman.</span></center>
 				<br>
 				<center>
@@ -306,12 +347,15 @@
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="col-md-8">
-						<center><h2 class="aboutMe">Tools Used</h2></center>
+						<center><h2 class="tools">Tools Used</h2></center>
 						<center>
 							<img src="assets/images/javascript.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/jquery.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/nodejs.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/npm.png" class="img-fluid toolBeltImg" alt="Responsive image">
+							<br>
+							<br>
+							<a href="#home"><button type="button" class="btn btn-outline-light">Home</button></a>
 						</center>
 					</div>
 					<div class="col-md-2"></div>	
@@ -321,7 +365,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-2 colProject"></div>
-			<div class="col-md-8 colProject">
+			<div class="col-md-8 colProject" id="bamazon">
 				<center><span class="projectTitle">MySql/NodeJs Bamazon App</span></center>
 				<br>
 				<center>
@@ -336,13 +380,16 @@
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="col-md-8">
-						<center><h2 class="aboutMe">Tools Used</h2></center>
+						<center><h2 class="tools">Tools Used</h2></center>
 						<center>
 							<img src="assets/images/javascript.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/jquery.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/nodejs.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/npm.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/mysql.png" class="img-fluid toolBeltImg" alt="Responsive image">
+							<br>
+							<br>
+							<a href="#home"><button type="button" class="btn btn-outline-light">Home</button></a>
 						</center>
 					</div>
 					<div class="col-md-2"></div>	
@@ -352,7 +399,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-2 colProject"></div>
-			<div class="col-md-8 colProject">
+			<div class="col-md-8 colProject" id="friendFinder">
 				<center><span class="projectTitle">Friend Finder (Archer Theme)</span></center>
 				<br>
 				<center>
@@ -367,7 +414,7 @@
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="col-md-8">
-						<center><h2 class="aboutMe">Tools Used</h2></center>
+						<center><h2 class="tools">Tools Used</h2></center>
 						<center>
 							<img src="assets/images/html5.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/css3.png" class="img-fluid toolBeltImg" alt="Responsive image">
@@ -376,6 +423,9 @@
 							<img src="assets/images/jquery.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/nodejs.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/npm.png" class="img-fluid toolBeltImg" alt="Responsive image">
+							<br>
+							<br>
+							<a href="#home"><button type="button" class="btn btn-outline-light">Home</button></a>
 						</center>
 					</div>
 					<div class="col-md-2"></div>	
@@ -385,7 +435,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-2 colProject"></div>
-			<div class="col-md-8 colProject">
+			<div class="col-md-8 colProject" id="burger">
 				<center><span class="projectTitle">Eat Da Burger (Full stack)</span></center>
 				<br>
 				<center>
@@ -400,7 +450,7 @@
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="col-md-8">
-						<center><h2 class="aboutMe">Tools Used</h2></center>
+						<center><h2 class="tools">Tools Used</h2></center>
 						<center>
 							<img src="assets/images/html5.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/css3.png" class="img-fluid toolBeltImg" alt="Responsive image">
@@ -410,6 +460,9 @@
 							<img src="assets/images/nodejs.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/npm.png" class="img-fluid toolBeltImg" alt="Responsive image">
 							<img src="assets/images/mysql.png" class="img-fluid toolBeltImg" alt="Responsive image">
+							<br>
+							<br>
+							<a href="#home"><button type="button" class="btn btn-outline-light">Home</button></a>
 						</center>
 					</div>
 					<div class="col-md-2"></div>	
