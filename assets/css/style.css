@@ -17,11 +17,11 @@ body::before {
   }
 
 .nav{
-	-webkit-appearance: none;
 	border-radius: 50px;
 	position: absolute;
 	z-index: 2;
 	visibility: hidden;
+	-webkit-background-color: rgb(108, 113, 117, .8);
 	background-color: rgb(108, 113, 117, .8);
 }  
 #portfolio-btn{
