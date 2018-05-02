@@ -17,6 +17,7 @@ body::before {
   }
 
 .nav{
+	-webkit-appearance: none;
 	border-radius: 50px;
 	position: absolute;
 	z-index: 2;
