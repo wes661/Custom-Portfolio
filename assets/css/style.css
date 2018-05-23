@@ -51,6 +51,12 @@ ul{
 	color: rgb(84, 173, 245);
 }
 
+.footer {  
+    position: fixed; 
+    bottom:0%;
+    width:100%; 
+}
+
 
 
 .headingTitle{
@@ -157,7 +163,7 @@ ul{
     filter: grayscale(100%);
 }
 
-.mail{
+.mail, .phone{
 	text-decoration: none;
 	color:white;
 	font-size: 38px !important;
