@@ -207,6 +207,13 @@ ul{
 	width: 9%;
 }
 
+.hidden{
+	opacity: 0;
+}
+
+.visible{
+	opacity: 1;
+}
 
 
 
