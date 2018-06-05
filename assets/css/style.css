@@ -36,6 +36,20 @@ body::before {
 	font-family: 'Concert One', cursive;
 	font-size: 1.5em;
 }
+#home-btn{
+	font-family: 'Concert One', cursive;
+	font-size: 1.5em;
+}
+
+#portfolio-back-btn:hover{
+	background-color: rgb(84, 173, 245);
+}
+#portfolio-btn:hover{
+	background-color: rgb(84, 173, 245);
+}
+#home-btn:hover{
+	background-color: rgb(84, 173, 245);
+}
 
 ul{
 	list-style: none;
@@ -65,56 +79,6 @@ ul{
 	font-size: 80px;
 	color: white;
 	font-weight: bold;
-}
-
-.jtron{
-	position: relative;
-	background: rgba(31,136,113,0.4);
-	margin: 0;
-	padding-top: 0;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-bottom: 15px;
-}
-
-
-
-.appTitle{
-	color: #1f8871;
-	text-align: center;
-	font-size: 40px;
-}
-.projectCard{
-	border-radius: 50px;
-	background: rgba(31,136,113,0.2);
-	color: white;
-	text-align: center;
-	font-size: 20px;
-}
-
-.card-body{
-	font-size: 1.8em;
-}
-
-.card-img-top{
-	border-radius: 50px;
-}
-
-.btn-play{
-	background-color:#127bb7;
-	color: white;
-	font-weight: bold;
-	font-size: 20px;
-	border-radius: 30%;
-	margin-top: 3%;
-}
-.btn-play:hover{
-	background-color: rgb(238, 101, 101);
-}
-
-#title{
-	font-size: .5em;
-	font-weight: 200;
 }
 
 
@@ -196,6 +160,14 @@ ul{
 	border-radius: 100%;
 }
 
+.githubImg:hover{
+	background-color: rgb(84, 173, 245);
+	width: 9%;
+}
+.linkedinImg:hover{
+	background-color: rgb(84, 173, 245);
+	width: 9%;
+}
 
 
 .toolBeltImg{
