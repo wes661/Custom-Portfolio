@@ -17,6 +17,7 @@ body::before {
   }
 
 .nav{
+	width: 250px;
 	border-radius: 50px;
 	position: absolute;
 	z-index: 2;
@@ -40,13 +41,13 @@ ul{
 	list-style: none;
 }
 .pLinks{
-	font-size: 1.3em;
+	font-size: 1.6em;
 	text-decoration: none;
 	color: white;
 	font-family: 'Concert One', cursive;
 }
 .pLinks:hover{
-	font-size: 1.5em;
+	font-size: 1.8em;
 	text-decoration: none;
 	color: rgb(84, 173, 245);
 }
@@ -190,17 +191,13 @@ ul{
 .aboutMeText{
 	font-size: 1.2em;
 }
-.githubImg, .linkedinImg, .stackImg{
+.githubImg, .linkedinImg{
 	width: 8%;
 	border-radius: 100%;
 }
 
-.githubImg{
-	margin-right: 7%;
-}
-.stackImg{
-	margin-left: 7%;
-}
+
+
 .toolBeltImg{
 	margin-left: 3%;
 	margin-right: 3%;
