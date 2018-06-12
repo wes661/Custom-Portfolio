@@ -15,6 +15,7 @@ $('#portfolio-back-btn').click(function(){
 	$('#portfolio-btn').addClass('animated fadeInDown');
 })
 
+
 jQuery(document).ready(function(){
 	jQuery('.postOne').addClass('hidden').viewportChecker({
 		classToAdd: 'visible animated fadeInLeft',
